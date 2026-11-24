@@ -10,8 +10,8 @@ An e-commerce storefront I built for a friend's boutique shop.
 
 ## Status
 
-The home page (hero section and featured products) is done. The `/shop`
-page that the "Shop Now" button links to is not built yet.
+Pages built: home (`/`), shop (`/shop`) and about (`/about`). The cart and
+checkout are not implemented yet.
 
 ## About the template
 
