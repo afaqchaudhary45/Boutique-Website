@@ -55,23 +55,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-16 px-8 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">What Our Customers Say</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            `"Absolutely love my new dress! Perfect fit and amazing quality." - Sarah K.`,
-            `"The handbag I bought is now my daily go-to. Stylish and practical." - Mia L.`,
-            `"Fantastic boutique! Every piece feels like it was made for me." - Emma R.`
-          ].map((t, idx) => (
-            <div key={idx} className="bg-white shadow rounded p-6 text-center">
-              <p className="mb-4">{t.split(' - ')[0]}</p>
-              <span className="font-bold">- {t.split(' - ')[1]}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Newsletter Signup */}
       <section className="bg-pink-50 py-16 px-8 text-center">
         <h2 className="text-3xl font-bold mb-4">Join Our Newsletter</h2>
