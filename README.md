@@ -1,6 +1,19 @@
-# Boutique-Website
-An e-commence website for my friends boutique shop  
+# Boutique Website
 
+An e-commerce storefront I built for a friend's boutique shop.
+
+## Tech stack
+
+- Next.js 15 (Pages Router) and React 19
+- Tailwind CSS 4
+- ESLint
+
+## Status
+
+The home page (hero section and featured products) is done. The `/shop`
+page that the "Shop Now" button links to is not built yet.
+
+## About the template
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
